@@ -10,6 +10,7 @@
     "request": "^2.88.2"
   },
   "devDependencies": {
+    "chai": "^4.3.4",
     "chi": "0.0.10",
     "mocha": "^9.1.3"
   },

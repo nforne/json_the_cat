@@ -27,6 +27,7 @@ const fetchBreedDescription = function(breedName, callback) {
       outPut === "" ? outPut = `Sorry, the cat ${breedName} is not on record!` : outPut;
       callback(errorOutPutCheck, outPut);
     }
+    return outPut;
   });
   
 };
